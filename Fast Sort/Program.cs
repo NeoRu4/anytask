@@ -112,8 +112,10 @@ namespace Fast_Sort
 		static bool HugeMassiveTest()
 		{
 			Console.Write("\t Подождите...");
+
 			var rand = new Random();
 			var array = new int[150000000];
+
 			for (var i = 0; i < array.Length; i++)
 				array[i] = rand.Next();
 
