@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Search", "Binary Sea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fast Sort", "Fast Sort\Fast Sort.csproj", "{2ABF10BB-A23B-4926-A3A8-32280B3DFEFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash Table", "Hash Table\Hash Table.csproj", "{6F41EFE3-7285-40E5-927D-3DB9A4F932C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D6087C93-C432-4943-90FA-015E7F2E698E} = {D6087C93-C432-4943-90FA-015E7F2E698E}
+		{2ABF10BB-A23B-4926-A3A8-32280B3DFEFA} = {2ABF10BB-A23B-4926-A3A8-32280B3DFEFA}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,10 @@ Global
 		{2ABF10BB-A23B-4926-A3A8-32280B3DFEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ABF10BB-A23B-4926-A3A8-32280B3DFEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ABF10BB-A23B-4926-A3A8-32280B3DFEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F41EFE3-7285-40E5-927D-3DB9A4F932C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F41EFE3-7285-40E5-927D-3DB9A4F932C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F41EFE3-7285-40E5-927D-3DB9A4F932C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F41EFE3-7285-40E5-927D-3DB9A4F932C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
